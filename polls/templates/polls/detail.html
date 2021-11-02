@@ -20,6 +20,6 @@
         {% endfor %}
         <input type = "submit" value = "Vote">
     </form>
-<a href = "{% url 'polls:detail' question.id %}">Vote again?</a>
+<a href = "{% url 'polls:vote' question.id %}">home</a>
 </body>
 </html>
